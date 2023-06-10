@@ -1,2 +1,4 @@
 mastercard
 visa
+rapípago
+pago facil
