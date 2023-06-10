@@ -1,2 +1,3 @@
 mastercard
 visa
+amex
