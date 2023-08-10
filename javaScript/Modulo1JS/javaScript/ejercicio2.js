@@ -7,7 +7,7 @@ document.write('<br/>Gasto opcional => $' + presupuesto * 0.3)
 document.write('<br/>Ahorro => $' + presupuesto * 0.2);
 
 }else{
- alert('Incorrecto... Ingrese dato númerico!d')   
+ alert('Incorrecto... Ingrese dato númerico!')   
 };
 
 
