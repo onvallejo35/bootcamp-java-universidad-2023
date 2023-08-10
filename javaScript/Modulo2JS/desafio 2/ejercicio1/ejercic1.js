@@ -1,6 +1,6 @@
-const edad = prompt ('Ingrese su edad')
+const edad = Number(prompt('Ingrese su edad:'));
 
-if(edad >=18){
+if(edad >= 18){
     alert('Bienvenido!')
 } else {
     alert('Error!!!')
