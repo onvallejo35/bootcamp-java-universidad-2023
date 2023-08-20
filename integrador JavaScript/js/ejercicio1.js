@@ -1,4 +1,4 @@
-/*
+
 function calcularPérdidas() {
     const cashFlowInput = document.getElementById("cashFlow");
     const resultadoElement = document.getElementById("resultado");
@@ -15,21 +15,28 @@ function calcularPérdidas() {
         resultadoElement.textContent = "La empresa generó ganancias el último año.";
     }
 }
-*/
 
 function calcularPérdidas() {
     const cashFlowInputs = document.querySelectorAll(".cashFlowInput");
+
+    const egresosMes = document.querySelectorAll(".egresoMes");
+
     const resultadoElement = document.getElementById("resultado");
 
     let totalCashFlow = 0;
+    let totalEgresos = 0;
 
     // Sumar los valores de flujo de caja de todos los meses
     cashFlowInputs.forEach(input => {
         totalCashFlow += parseFloat(input.value);
     });
 
+    egresosMes.forEach(input => {
+        totalEgresos += parseFloat(input.value);
+    });
+
     // Verificar si hay pérdidas o no
-    if (totalCashFlow < 0) {
+    if (resultadoElement <  0) {
         resultadoElement.textContent = "La empresa tuvo pérdidas en el último año.";
     } else if (totalCashFlow === 0) {
         resultadoElement.textContent = "La empresa tuvo un flujo de caja neutro en el último año.";
@@ -37,3 +44,9 @@ function calcularPérdidas() {
         resultadoElement.textContent = "La empresa generó ganancias en el último año.";
     }
 }
+
+
+
+    var meses = [enero, febrero];
+  
+
