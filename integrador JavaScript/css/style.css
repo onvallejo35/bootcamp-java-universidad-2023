@@ -1,6 +1,19 @@
 
 .logo {
-    width: 2em;
+    width: 3em;
     margin-right: 15px;
     margin-left: 4px;
     }
+
+.container-fluid {
+    height: 65px;
+}
+
+    .imagen-home{
+    background-image: url(../IMAGENES/home-md.jpg);
+    padding: 35px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
