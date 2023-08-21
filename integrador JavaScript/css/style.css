@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .logo {
     width: 3em;
     margin-right: 15px;
@@ -9,7 +13,7 @@
     height: 65px;
 }
 
-    .imagen-home{
+.imagen-home{
     background-image: url(../IMAGENES/home-md.jpg);
     padding: 35px;
     height: 400px;
@@ -17,3 +21,31 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.imagen-home{
+    position: relative;
+    
+}
+
+.texto-home{
+    color: aliceblue;
+    margin-top: 200px;
+    margin-left: 600px;
+    position: absolute;
+   text-align: center;
+    animation: animation 2s;
+
+    display: inline-block;
+    
+    
+}
+
+.titulo3{
+    background-color: rgb(48, 169, 24);
+    padding: 15px 80px;
+}
+
+@keyframes animation {
+    0%{
+       transform:scaleY(.01);
+    }
