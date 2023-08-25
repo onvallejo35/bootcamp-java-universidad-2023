@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: 
+}
+
 .logo {
     width: 3em;
     margin-right: 15px;
     margin-left: 4px;
     }
 
-.container-fluid {
-    height: 65px;
-}
 
 .imagen-home{
     background-image: url(../IMAGENES/home-md.jpg);
@@ -46,10 +48,11 @@
     margin-top: 23px;
 }
 
-.logogc{
+.logos-circulo{
     width: 80px;
     height: auto;
     padding-top: 10px;
+    margin: ;
 }
 
 .row {
@@ -84,7 +87,7 @@
 h2 {
     text-align: center;
     margin-top: 40px;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .video-iframe {
@@ -114,6 +117,7 @@ footer{
     background-color: #28A745;
     color: white;
     padding: 7px;
+    border-radius: 5px;
 }
 
 .col-6{
